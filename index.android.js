@@ -68,7 +68,7 @@ var PageTwo = React.createClass({
   },
 });
                    
-class reactNativeTest extends Component {
+class kickXperience extends Component {
 
   _renderScene(route, navigator) {
     if (route.id === 1) {
@@ -106,4 +106,4 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('reactNativeTest', () => reactNativeTest);
+AppRegistry.registerComponent('kickXperience', () => kickXperience);
