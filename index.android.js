@@ -15,11 +15,13 @@ import {
   Alert,
   Navigator
 } from 'react-native';
-
+import Meteor, { createContainer } from 'react-native-meteor';
 import Button from 'react-native-button';
 
 var alertMessage = 'Credibly reintermediate next-generation potentialities after goal-oriented ' +
                    'catalysts for change. Dynamically revolutionize.';
+
+Meteor.connect('ws://192.168.1.82:3000/websocket');//do this only once
 
 var PageOne = React.createClass({
   _handlePress() {
